@@ -168,6 +168,7 @@ export default {
 
     // 编辑操作
     handleEdit(index, row) {
+      console.log(row);
       this.dialogTitle = "编辑";
       this.user = Object.assign({}, row);
       this.userFormVisible = true;
