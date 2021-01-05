@@ -64,11 +64,11 @@ export default {
           index: "table",
           title: "用户信息"
         },
-        {
-          icon: "el-icon-lx-copy",
-          index: "tabs",
-          title: "系统消息"
-        },
+        // {
+        //   icon: "el-icon-lx-copy",
+        //   index: "tabs",
+        //   title: "系统消息"
+        // },
         {
           icon: "el-icon-lx-calendar",
           index: "form",

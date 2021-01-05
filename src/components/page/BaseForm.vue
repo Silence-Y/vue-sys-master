@@ -14,10 +14,11 @@
             <el-input v-model="form.name"></el-input>
           </el-form-item>
 
-          <el-form-item label="选择器">
+          <el-form-item label="活动区域">
             <el-select v-model="form.region" placeholder="请选择活动区域">
-              <el-option label="区域一" value="shanghai"></el-option>
-              <el-option label="区域二" value="beijing"></el-option>
+              <el-option label="上海" value="shanghai"></el-option>
+              <el-option label="北京" value="beijing"></el-option>
+              <el-option label="成都" value="chengdu"></el-option>
             </el-select>
           </el-form-item>
 
@@ -36,7 +37,7 @@
             </el-col>
           </el-form-item>
 
-          <el-form-item label="城市级联">
+          <el-form-item label="选择城市">
             <el-cascader
               v-model="value"
               :options="options"
@@ -49,7 +50,7 @@
             <el-switch v-model="form.delivery"></el-switch>
           </el-form-item>
 
-          <el-form-item label="多选框">
+          <el-form-item label="活动形式">
             <el-checkbox-group v-model="form.type">
               <el-checkbox label="美食/餐厅线上活动" name="type"></el-checkbox>
               <el-checkbox label="地推活动" name="type"></el-checkbox>

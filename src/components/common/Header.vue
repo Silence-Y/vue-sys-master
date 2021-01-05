@@ -37,14 +37,16 @@
 import bus from "../common/bus";
 export default {
   data() {
-    return {};
+    return {
+      username: "Silence.Y"
+    };
   },
-  computed: {
-    username() {
-      let username = localStorage.getItem("ms_username");
-      return username ? username : this.name;
-    }
-  },
+  // computed: {
+  //   username() {
+  //     let username = localStorage.getItem("ms_username");
+  //     return username ? username : this.name;
+  //   }
+  // },
   methods: {
     // 用户名下拉菜单选择事件
     handleCommand(command) {
