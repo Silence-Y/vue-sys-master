@@ -15,7 +15,7 @@ const routes = [{
     },
     children: [{
         path: '/index',
-        component: () => import( /* webpackChunkName: "dashboard" */ '../components/page/Index.vue'),
+        component: () => import( /* webpackChunkName: "dashboard" */ '../components/page/index.vue'),
         meta: {
           title: '系统首页'
         }
