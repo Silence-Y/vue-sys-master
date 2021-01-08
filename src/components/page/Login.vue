@@ -21,10 +21,11 @@
         <div class="login-btn">
           <el-button type="primary" @click="submitForm()">登录</el-button>
         </div>
-        <p class="login-tips">
+        <!-- 免费注册用户 -->
+        <!-- <p class="login-tips">
           <span>还没有账号？</span>
           <router-link :to="{ name: 'register' }">免费注册</router-link>
-        </p>
+        </p>-->
       </el-form>
     </div>
   </div>
@@ -53,7 +54,7 @@ export default {
         if (valid) {
           this.$message.success("登录成功");
           localStorage.setItem("ms_username", this.username);
-          this.$router.push("/");
+          this.$router.push("/index");
           // 页面信息需要变化
         } else {
           this.$message.error("请输入账号和密码");
@@ -71,29 +72,34 @@ export default {
   position: relative;
   width: 100%;
   height: 100%;
-  /* background-image: url(../../assets/img/login-bg.jpg); */
+  background-image: url(../../assets/img/login-bg.jpg);
+  background-repeat: no-repeat;
   background-size: 100%;
-}
-.ms-title {
-  width: 100%;
-  line-height: 50px;
-  text-align: center;
-  font-size: 20px;
-  color: #fff;
-  border-bottom: 1px solid #ddd;
 }
 .ms-login {
   position: absolute;
   left: 50%;
   top: 50%;
-  width: 350px;
+  width: 400px;
+  /* height: 280px; */
   margin: -190px 0 0 -175px;
   border-radius: 5px;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid #ddd;
   overflow: hidden;
 }
+.ms-title {
+  width: 100%;
+  line-height: 50px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 30px;
+  color: #909399;
+  /* border-bottom: 1px solid #fff; */
+}
+
 .ms-content {
-  padding: 30px 30px;
+  padding: 20px 30px;
 }
 .login-btn {
   text-align: center;
@@ -114,6 +120,6 @@ export default {
   font-weight: bold;
 }
 .el-button {
-  widows: 20px;
+  width: 65px;
 }
 </style>

@@ -38,7 +38,7 @@ import bus from "../common/bus";
 export default {
   data() {
     return {
-      username: "Silence.Y"
+      username: "admin"
     };
   },
   // computed: {
