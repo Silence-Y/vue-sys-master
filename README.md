@@ -1,22 +1,19 @@
-# sys
-
-> A Vue.js project
+# vue-sys-master
+基于Vue+Element-ui开发的后台管理系统模板
 
 ## Build Setup
-1.安装依赖
+1. 安装依赖
 ``` bash
 npm install
 ```
-2.本地运行
+2. 本地运行
 ``` bash
 npm run dev
 ```
-3.编译打包
+3. 编译打包
 ``` bash
 npm run build
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 ## 项目演示地址
 https://silence-y.github.io/vue-sys-master/dist
 ## 项目截图
