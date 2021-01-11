@@ -29,7 +29,7 @@ npm run build
 ## 项目预览
 :link:   https://silence-y.github.io/vue-sys-master/dist
 ## 功能介绍
-### main.js
+### 1.main.js
 导入需要的依赖
 ``` javascript
 import Vue from 'vue'
@@ -56,7 +56,7 @@ new Vue({
   render: h => h(App)
 }).$mount('#app')
 ```
-### 表格的基本使用
+### 2.表格的基本使用
 表格主要使用Element-UI组件库实现，用户数据使用Mock.js模拟生成。  
 部分代码如下：
 ``` javascript
@@ -81,7 +81,7 @@ const userDate = () => {
 // 生成接口，便于调用
 Mock.mock('/api/users', userDate)
 ```
-在组件中使用mock的是数据
+在组件中使用mock模拟数据
 ``` javascript
  created() {
     this.getUsers();
@@ -156,10 +156,10 @@ Mock.mock('/api/users', userDate)
     }
   }
 ```
-### sChart.js图表库的使用
+### 3.sChart.js图表库的使用
 sChart.js 作为一个小型简单的图表库，没有过多的图表类型，只包含了柱状图、折线图、饼状图和环形图四种基本的图表。麻雀虽小，五脏俱全。sChart.js 基本可以满足这四种图表的需求。而它的小，体现在它的体积上，代码只有 8kb，如果经过服务器的Gzip压缩，那就更小了，因此不用担心造成项目代码冗余。  
 文档(中英文)：[lin-xin.gitee.io/example/schart/](lin-xin.gitee.io/example/schart/)  
-文档写的很清楚了，我也基本上是将文档中的例子搬过来的，大家可以直接去看文档就可以啦~
+文档写的很清楚了，我也基本上是将文档中的例子copy过来的，大家直接去看文档就可以啦~
 ## 项目截图
 ### 登录
 ![登录](https://github.com/Silence-Y/vue-sys-master/blob/master/screenshots/img_login.png)
