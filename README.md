@@ -1,7 +1,11 @@
 # vue-sys-master
 基于Vue+Element-ui开发的后台管理系统模板
-
-## Build Setup
+## 技术栈
+Vue  
+:white_check_mark:
+## 功能实现
+:pencil:
+## 运行
 1. 安装依赖
 ``` bash
 npm install
@@ -15,7 +19,7 @@ npm run dev
 npm run build
 ```
 ## 项目演示地址
-https://silence-y.github.io/vue-sys-master/dist
+:link:   https://silence-y.github.io/vue-sys-master/dist
 ## 项目截图
 ### 登录
 ![登录](https://github.com/Silence-Y/vue-sys-master/blob/master/screenshots/img_login.png)
