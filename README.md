@@ -1,10 +1,10 @@
 # vue-sys-master
 基于Vue+Element-ui开发的后台管理系统模板
 ## 技术栈
-:white_check_mark: Vue  
-:white_check_mark: Vue-router  
-:white_check_mark: Element-UI  
-:white_check_mark: Mock.js
++ Vue  
++ Vue-router  
++ Element-UI  
++ Mock.js
 ## 功能实现
 :pencil: 登录、登出  
 :pencil: 基本表格的使用  
