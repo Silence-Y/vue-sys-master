@@ -59,7 +59,11 @@ Mock.mock('/api/users', userDate)
 ```
 import './mock.js'
 ```
-在组件中使用mock.js模拟的数据，使用axios请求数据
+使用axios请求数据，使用Vue.prototype在全局定义axios 
+```
+Vue.prototype.$http = axios
+```
+在组件中使用mock.js模拟的数据，
 ``` javascript
  created() {
     this.getUsers();
@@ -89,3 +93,4 @@ sChart.js 作为一个小型简单的图表库，没有过多的图表类型，�
 ![表单](https://github.com/Silence-Y/vue-sys-master/blob/master/screenshots/img_form.png)
 ### 图表
 ![sChart.js图表](https://github.com/Silence-Y/vue-sys-master/blob/master/screenshots/img_scharts.png)
+如果本文对你有帮助，可以点个"Star"支持一下，感谢！
