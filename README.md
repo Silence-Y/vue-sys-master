@@ -10,9 +10,9 @@
 :pencil:  登录、登出  
 :pencil:  基本表格  
 :pencil:  基本表单  
-:pencil:  富文本编辑器和Markdown编辑器  
+:pencil:  富文本编辑器和`Markdown`编辑器  
 :pencil:  sChart.js图表（柱状图/折线图/饼状图/环形图）  
-:pencil:  使用Mock.js模拟用户数据
+:pencil:  使用`Mock.js`模拟用户数据
 ## 运行
 1. 安装依赖
 ``` bash
@@ -30,7 +30,7 @@ npm run build
 :link:   https://silence-y.github.io/vue-sys-master/dist
 ## 功能介绍
 ### 1.表格
-表格主要使用Element-UI组件库实现，用户数据使用Mock.js模拟生成。  
+表格主要使用Element-UI组件库实现，用户数据使用`Mock.js`模拟生成。  
 部分代码如下：  
 新建一个mock.js文件
 ``` javascript
@@ -59,7 +59,7 @@ Mock.mock('/api/users', userDate)
 ```
 import './mock.js'
 ```
-使用axios请求数据，使用Vue.prototype在全局定义axios 
+使用`axios`请求数据，使用`Vue.prototype`在全局定义`axios `
 ```
 Vue.prototype.$http = axios
 ```
@@ -81,7 +81,7 @@ Vue.prototype.$http = axios
   }
 ```
 ### 2.sChart.js图表库的使用
-sChart.js 作为一个小型简单的图表库，没有过多的图表类型，只包含了柱状图、折线图、饼状图和环形图四种基本的图表。麻雀虽小，五脏俱全。sChart.js 基本可以满足这四种图表的需求。
+`sChart.js` 作为一个小型简单的图表库，没有过多的图表类型，只包含了柱状图、折线图、饼状图和环形图四种基本的图表。麻雀虽小，五脏俱全。sChart.js 基本可以满足这四种图表的需求。
 文档(中英文)：[lin-xin.gitee.io/example/schart/](lin-xin.gitee.io/example/schart/)  
 文档写的很清楚了，我也基本上是将文档中的例子copy过来的，大家直接去看文档就可以啦~
 ## 项目截图
