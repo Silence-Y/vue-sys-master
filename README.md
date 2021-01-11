@@ -11,7 +11,7 @@
 :pencil: 基本表格的使用  
 :pencil: 基本表单的使用  
 :pencil: 富文本编辑器和Markdown编辑器  
-:pencil: sChart.js图表（柱状图/折线图/饼状图/环形图）
+:pencil: sChart.js图表（柱状图/折线图/饼状图/环形图）  
 :pencil: 使用Mock.js模拟用户数据
 ## 运行
 1. 安装依赖
