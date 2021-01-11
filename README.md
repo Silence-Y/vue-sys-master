@@ -85,12 +85,13 @@ Vue.prototype.$http = axios
 文档(中英文)：[lin-xin.gitee.io/example/schart/](lin-xin.gitee.io/example/schart/)  
 文档写的很清楚了，我也基本上是将文档中的例子copy过来的，大家直接去看文档就可以啦~
 ## 项目截图
-### 登录
+### 1.登录
 ![登录](https://github.com/Silence-Y/vue-sys-master/blob/master/screenshots/img_login.png)
-### 用户列表
+### 2.用户列表
 ![用户列表](https://github.com/Silence-Y/vue-sys-master/blob/master/screenshots/img_user.png)
-### 表单
+### 3.表单
 ![表单](https://github.com/Silence-Y/vue-sys-master/blob/master/screenshots/img_form.png)
-### 图表
+### 4.图表
 ![sChart.js图表](https://github.com/Silence-Y/vue-sys-master/blob/master/screenshots/img_scharts.png)
+
 如果本文对你有帮助，可以点个"Star"支持一下，感谢！
