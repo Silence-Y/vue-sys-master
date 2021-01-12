@@ -1,6 +1,6 @@
 # vue-sys-master
 ## 前言
-基于Vue+Element-ui开发的后台管理系统模板,包括用户管理、表单管理、Markdown编辑器的使用等。
+基于Vue+Element-UI开发的后台管理系统模板,包括用户管理、表单管理、Markdown编辑器的使用等。
 ## 技术栈
 + Vue  
 + Vue-router  
@@ -81,7 +81,7 @@ Vue.prototype.$http = axios
   }
 ```
 ### 2.sChart.js图表库的使用
-`sChart.js` 作为一个小型简单的图表库，没有过多的图表类型，只包含了柱状图、折线图、饼状图和环形图四种基本的图表。麻雀虽小，五脏俱全。sChart.js 基本可以满足这四种图表的需求。
+`sChart.js` 作为一个小型简单的图表库，没有过多的图表类型，只包含了柱状图、折线图、饼状图和环形图四种基本的图表。麻雀虽小，五脏俱全。sChart.js 基本可以满足这四种图表的需求。  
 文档(中英文)：[lin-xin.gitee.io/example/schart/](lin-xin.gitee.io/example/schart/)  
 文档写的很清楚了，我也基本上是将文档中的例子copy过来的，大家直接去看文档就可以啦~
 ## 项目截图
