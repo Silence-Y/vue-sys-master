@@ -1,6 +1,7 @@
 # vue-sys-master
 ## 前言
-基于Vue+Element-UI开发的后台管理系统模板,包括用户管理、表单管理、Markdown编辑器的使用等。
+基于Vue+Element-UI开发的后台管理系统模板,包括用户管理、表单管理、Markdown编辑器的使用等。  
+主要是对Vue基础和Element-UI组件库的练习~
 ## 技术栈
 + Vue  
 + Vue-router  
