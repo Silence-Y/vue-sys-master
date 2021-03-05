@@ -8,7 +8,7 @@
 + Element-UI  
 + Mock.js
 ## 功能实现
-:pencil:  登录、登出  
+:pencil:  登录、退出  
 :pencil:  基本表格  
 :pencil:  基本表单  
 :pencil:  富文本编辑器和`Markdown`编辑器  
